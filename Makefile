@@ -16,7 +16,7 @@ tag:
 	@make requirements
 	@make dev_requirements
 	@git add .
-	@git commit -m "v$$(poetry version -s)"
+	@git commit -am "v$$(poetry version -s)"
 	@git checkout master
 	@git merge develop
 	@git tag v$$(poetry version -s)
