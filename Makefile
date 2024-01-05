@@ -17,11 +17,12 @@ tag:
 	@make dev_requirements
 	@git add .
 	@git commit -am "v$$(poetry version -s)"
+	@git push
 	@git checkout master
 	@git merge develop
 	@git tag v$$(poetry version -s)
-	# @git push
-	# @git push --tags
+	@git push
+	@git push --tags
 	@git checkout develop
-	# @poetry version
+	@poetry version
 
