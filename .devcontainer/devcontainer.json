@@ -1,0 +1,6 @@
+{
+  "name": "template_project",
+  "build": {
+    "dockerfile": "../Dockerfile.dev"
+  }
+}

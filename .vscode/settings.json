@@ -1,0 +1,11 @@
+{
+  "flake8.args": [
+    "--config",
+    "${workspaceFolder}/config/tox.ini",
+  ],
+  "python.testing.pytestArgs": [
+    "-vv",
+    "-c",
+    "${workspaceFolder}/config/pytest.ini"
+  ],
+}
