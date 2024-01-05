@@ -22,5 +22,6 @@ tag:
 	@git tag v$$(poetry version -s)
 	# @git push
 	# @git push --tags
+	@git checkout develop
 	# @poetry version
 
