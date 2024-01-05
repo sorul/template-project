@@ -11,7 +11,6 @@ dev_requirements:
 	@poetry export --with dev -f requirements.txt --output requirements_dev.txt --without-hashes
 
 version:
-	@make poetry shell
 	@make flake8
 	@make test
 	@make requirements
