@@ -1,9 +1,6 @@
 flake8:
 	@flake8 --config config/tox.ini
 
-hola:
-	adios
-
 test:
 	@poetry run pytest
 
