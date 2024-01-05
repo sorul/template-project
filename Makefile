@@ -14,6 +14,7 @@ version:
 	@make flake8
 	@make test
 	@make requirements
+	@make dev_requirements
 	@git add .
 	@git commit -m "v$$(poetry version -s)"
 	@git tag v$$(poetry version -s)
